@@ -1,0 +1,119 @@
+/* Navigation*/
+#navbar {
+    flex-direction: column;
+    
+}
+#navbar ul li a{
+    font-size: 0.8rem;
+    padding: 0px 7px;
+}
+
+/*Home section*/
+
+#home{
+    width: 380px;
+    height: 520px;
+    padding: 3px 30px;
+    overflow:;
+    flex-direction: column;
+    
+
+
+}
+#home::before{
+    height: 720px;
+}
+#home p{
+    font-size: 13px;
+}
+
+/* Services section */
+#services{
+    flex-direction: column;
+    
+
+}
+
+#services .box{
+    width: 250px;
+    height: auto;
+    margin: px px;
+    margin-bottom: 10px;
+    height: 700px;
+
+    
+
+}
+#services img{
+     padding: 14px;
+    margin: 2px 15px;
+    margin-bottom: 20px;
+
+
+}
+#services .box p{
+    font-size: 10px;
+}
+#services .box h2{
+  font-size: 40px;
+}
+/* Clients section */
+#clients{
+flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+    padding: 2px 6px;
+    height: auto;
+
+}
+
+/*Contact us seaction */
+#contact-box form{
+    width: 80%;
+
+}
+
+/* Footer */
+
+/*Utility classes */
+.h-primary{
+    font-size: 20px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.search-container {
+    display: flex;
+    overflow: hidden;
+}
+.search-box {
+    overflow: hidden;
+}
+
+
+.card{
+    align-items: center;
+}
+.text-side2{
+    text-align: center;
+
+}
+
+.login-container {
+  
+    margin-left: 150px;
+    margin-inline-start: 100px;
+
+
+    
+}
+    h3{
+    font-size: 1rem;
+}
+p{
+    font-size: 1rem;
+
+}
